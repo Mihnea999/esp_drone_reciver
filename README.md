@@ -17,4 +17,7 @@ This is a project based on a esp32-c3 super mini and esp-now protocol.
 **PID Controllers:** Used to stabilize the drone > 1 for every axis\
 **Mixing Algorithm:** Takes the PID outputs and mix the values so that the motors recive the correct PWM value
 
+## PCB DESIGN
+
+<img src="./images/Schematic_dronemainb_2025-11-19.svg">
 
