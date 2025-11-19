@@ -1,27 +1,38 @@
 # ESP DRONE
-*Authot:* RUSU MIHNEA.
 
-This is a project based on a esp32-c3 super mini and esp-now protocol.
-## Materials used in
+**Author**: RUSU MIHNEA
 
-**IMU:** 6 axis MPU6050 accelerometer and gyroscope\
-**Motor Driver:** A self made driver using AO3400 N channel mosfet, 1 1k 0805 resistor and BAT60B diode.\
-**Motor:** 4 high speed brushed motors\
-**uC:** Esp32 C3\
-**Charging Module:** TP4057 Mini TuanNH data\
-**Battery:** High Discharge 25C with 600mAh
+This is a project based on an **ESP32-C3 Super Mini** and the **ESP-NOW** protocol for wireless communication.
+
+---
+
+## Hardware Components
+
+| Component | Details |
+| :--- | :--- |
+| **IMU** | 6-axis **MPU6050** accelerometer and gyroscope. |
+| **Motor Driver** | A custom-made driver using **AO3400 N-channel MOSFET**, 1kΩ 0805 resistor, and **BAT60B** diode. |
+| **Motor** | 4 x High-speed brushed motors. |
+| **uC (Microcontroller)** | **ESP32-C3**. |
+| **Charging Module** | **TP4057 Mini TuanNH data**. |
+| **Battery** | High Discharge **25C** with **600mAh**. |
+
+---
 
 ## Code Components
 
-**Complementary Filter:** Used with the MPU6050 to merge the accelerometer and gyrocope in order to obtain a good reading of the angle\
-**PID Controllers:** Used to stabilize the drone > 1 for every axis\
-**Mixing Algorithm:** Takes the PID outputs and mix the values so that the motors recive the correct PWM value
+### **Filtrul Complementar (Complementary Filter)**
+Used with the MPU6050 to merge the accelerometer and gyroscope data in order to obtain a reliable reading of the angle.
 
-## PCB DESIGN
+### **Controlere PID (PID Controllers)**
+Used to stabilize the drone. A dedicated **PID controller** is implemented for every axis (Roll, Pitch, Yaw).
 
-<img src="./images/Schematic_dronemainb_2025-11-19.svg">
+### **Algoritmul de Mixare (Mixing Algorithm)**
+Takes the PID outputs and mixes the values so that the motors receive the correct **PWM** (Pulse-Width Modulation) value for thrust control.
 
-## PARTS NEEDED
+---
+
+## BOM
 
 |ID |Name                   |Designator |Footprint                        |Quantity|Manufacturer Part  |
 |---|-----------------------|-----------|---------------------------------|--------|-------------------|
@@ -35,6 +46,10 @@ This is a project based on a esp32-c3 super mini and esp-now protocol.
 |16 |AO3400                 |Q1,Q2,Q3,Q4|SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR|4       |AO3400             |
 |17 |Switch                 |SWITCH     |SW-TH_SS12D00G3                  |1       |SS12D00G3          |
 |18 |TP4057 Mini TuanNH data|U4         |TP4057 MINI TUANNH               |1       |TP4057 (TP4056)    |
+
+## PCB DESIGN
+<img src="./images/Schematic_dronemainb_2025-11-19.svg">
+
 
 
 
