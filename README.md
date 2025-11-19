@@ -4,8 +4,6 @@
 
 This is a project based on an **ESP32-C3 Super Mini** and the **ESP-NOW** protocol for wireless communication.
 
----
-
 ## Hardware Components
 
 | Component | Details |
@@ -21,14 +19,14 @@ This is a project based on an **ESP32-C3 Super Mini** and the **ESP-NOW** protoc
 
 ## Code Components
 
-### **Filtrul Complementar (Complementary Filter)**
+### **Complementary Filter**
 Used with the MPU6050 to merge the accelerometer and gyroscope data in order to obtain a reliable reading of the angle.
 
-### **Controlere PID (PID Controllers)**
+### **PID Controllers**
 Used to stabilize the drone. A dedicated **PID controller** is implemented for every axis (Roll, Pitch, Yaw).
 
-### **Algoritmul de Mixare (Mixing Algorithm)**
-Takes the PID outputs and mixes the values so that the motors receive the correct **PWM** (Pulse-Width Modulation) value for thrust control.
+### **Mixing Algorithm**
+Takes the PID outputs and mixes the values so that the motors receive the correct **PWM** value for thrust control.
 
 ---
 
