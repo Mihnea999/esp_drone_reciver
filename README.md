@@ -21,3 +21,20 @@ This is a project based on a esp32-c3 super mini and esp-now protocol.
 
 <img src="./images/Schematic_dronemainb_2025-11-19.svg">
 
+## PARTS NEEDED
+
+|ID |Name                   |Designator |Footprint                        |Quantity|Manufacturer Part  |
+|---|-----------------------|-----------|---------------------------------|--------|-------------------|
+|1  |4.7kΩ                  |R5,R6      |R0805                            |2       |0805W8F1001T5E     |
+|2  |ESP32-C3-SUPER-MINI    |U1         |ESP32-C3-SUPER-MINI              |1       |                   |
+|11 |470uF                  |C1         |CAP-TH_BD6.3-P2.50-D0.5-FD       |1       |GR1C471M0611       |
+|12 |100nF                  |C2,C3,C4,C5|C0805                            |4       |C2012X5R1C105M085AA|
+|13 |1kΩ                    |R1,R2,R3,R4|R0805                            |4       |0805W8F1001T5E     |
+|14 |imu (mpu-6050)         |U2         |MPU-6050                         |1       |                   |
+|15 |BAT60B                 |D1,D2,D3,D4|SOD-323_L1.7-W1.3-LS2.7-RD       |4       |1N4148WS           |
+|16 |AO3400                 |Q1,Q2,Q3,Q4|SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR|4       |AO3400             |
+|17 |Switch                 |SWITCH     |SW-TH_SS12D00G3                  |1       |SS12D00G3          |
+|18 |TP4057 Mini TuanNH data|U4         |TP4057 MINI TUANNH               |1       |TP4057 (TP4056)    |
+
+
+
