@@ -45,7 +45,11 @@ Takes the PID outputs and mixes the values so that the motors receive the correc
 |17 |Switch                 |SWITCH     |SW-TH_SS12D00G3                  |1       |SS12D00G3          |
 |18 |TP4057 Mini TuanNH data|U4         |TP4057 MINI TUANNH               |1       |TP4057 (TP4056)    |
 
-### [Remote Repository](https://github.com/Mihnea999/ESP_DRONE_TRANSMITER/tree/main)
+---
+
+### **[Remote Repository](https://github.com/Mihnea999/ESP_DRONE_TRANSMITER/tree/main)**
+
+---
 
 ## PCB DESIGN
 <img src="./images/Schematic_dronemainb_2025-11-19.svg">
