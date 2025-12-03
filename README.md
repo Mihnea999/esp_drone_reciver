@@ -52,7 +52,7 @@ Takes the PID outputs and mixes the values so that the motors receive the correc
 ---
 
 ## PCB DESIGN
-<img src="./images/Schematic_dronemainb_2025-11-19.svg">
+<img src="./images/Schematic_dronemainb_2025-12-03.png">
 
 
 
